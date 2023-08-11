@@ -24,16 +24,16 @@ function App() {
     const timer = setTimeout(() => {
       updateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
+
 
   return (
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <div style={{minHeight: "91vh"}}>
-          <Navbar />
+          <Navbar/>
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
