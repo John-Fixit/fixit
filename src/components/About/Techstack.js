@@ -6,12 +6,10 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
   DiAngularSimple
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
   SiNextdotjs,
   SiExpress

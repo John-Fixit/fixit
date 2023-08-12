@@ -6,20 +6,20 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
-  SiWindows,
   SiNetlify,
-  SiStackoverflow
+  SiStackoverflow,
+  SiRender
 } from "react-icons/si";
 
 function Toolstack() {
   const tools = [
-    {name: "Windows", icon: <SiWindows />},
     {name: "Visual Studio code", icon: <SiVisualstudiocode />},
     {name: "Postman", icon: <SiPostman />},
     {name: "Vercel", icon: <SiVercel />},
     {name: "Netlify", icon: <SiNetlify />},
     {name: "Slack", icon: <SiSlack />},
-    {name: "Stack overflow", icon: <SiStackoverflow />}
+    {name: "Stack overflow", icon: <SiStackoverflow />},
+    {name: "Render", icon: <SiRender />}
   ]
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
