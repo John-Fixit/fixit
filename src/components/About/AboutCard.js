@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Adeoye John </span>
+            Hi, welcome to my page, I am <span className="purple">Adeoye John </span>
             <br /> I am a <span className="purple">Full stack developer </span> and currently in Nigeria, studied at SQI College of ICT. I love creating user-friendly interfaces that enhances the overall user experience and giving it live by integrating the functions. I am driven by the desire to work collaboratively with like-minded developers and designers who share experience and knowledge for creating seamless and intuitive digital experiences.
     <br/><br/>
             Additionally, Having honed my skills in <span className="purple">frontend and backend development,</span> I am constantly seeking opportunities to learn more and grow from talented individuals who can broaden my knowledge and expertise. Working in a team environment allows me to gain insights from different perspectives, fostering creativity and innovation.
