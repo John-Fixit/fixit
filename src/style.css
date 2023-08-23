@@ -294,6 +294,22 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section{
+    padding-top: 0 !important;
+    padding-bottom: 0px !important;
+  }
+  .home-header{
+    padding-top: 5px !important;
+  }
+  .home-content {
+    padding: 8rem 0 0rem 0!important;
+  }
+  .heading {
+    padding-left: 15px !important;
+  }
+  .heading-name {
+    padding-left: 15px !important;
+  }
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
