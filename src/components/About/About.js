@@ -12,7 +12,7 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "center" }}>
           <Col
             md={7}
             style={{
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'm</strong>
+              Know Who <strong className="purple">I am</strong>
             </h1>
             <Aboutcard />
           </Col>
