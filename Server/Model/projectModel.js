@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const projectSchema = new mongoose.Schema({
     img_url: {
-        type: URL,
+        type: String,
         required: true
     },
     title: {
@@ -14,14 +14,14 @@ const projectSchema = new mongoose.Schema({
         required: true
     },
     githubLink: {
-        type: URL,
+        type: String,
         required: true
     },
     demoLink: {
-        type: URL,
+        type: String,
         required: true
     }
 })
 
-const projectModel = mongoose.model("project", projectSchema);
+const projectModel = mongoose.model("projects", projectSchema);
 module.exports = projectModel;
